@@ -1,0 +1,37 @@
+PROGRAM INI ADALAH PROGRAM MENAMPILKAN STATISTIK KATA DALAM SEBUAH FILE.txt
+		    DIBUAT UNTUK MEMENUHI TUGAS BESAR SDA
+
+Dalam program ini ketika di menu awal anda akan diminta untuk memasukan pilihan:
+1. Menampilkan Statistik Kata
+2. Mencari kata yang diinginkan
+3. Help (yang sekarang sedang anda lihat)
+4. Profil Author
+5. Exit
+
+Ketika anda salah menginput pilihan, maka anda diminta untuk menginput ulang 
+kembali.
+
+pilihan 1 : Maka akan tampil layar baru dan anda diminta untuk menginput file c
+ 	    dengan cara (drive:\\fold\\filename) atau (nama file .txt).
+	    jika anda menginput dengan benar maka akan ditampilkan dilayar.
+	    kemudian user diminta untuk menekan Enter untuk melanjutkan ke 
+	    proses perhitungan kata pada file tersebut.Setelah itu program 
+	    akan menampilkan statistik kata dari file yang dibuka.
+
+pilihan 2 : Anda akan diminta untuk menginput kata yang ingin anda ketahui 
+            jumlahnya.
+
+pilihan 3 : maka akan tampil layar baru,yang berisi petunjuk penggunaan program.
+
+pilihan 4 : maka akan tampil layar baru,yang berisi profil para pembuat program.
+
+pilihan 5 : maka anda akan keluar dari program ini 
+
+untuk setiap pilihan akan diberi printah ("TEKAN SEMBARANG TOMBOL UNTUK KEMBALI KE MENU 
+UTAMA") yang berfungsi untuk kembali ke menu utama.
+
+
+                          Selamat Mencoba Program ini 
+
+
+		    

@@ -1,0 +1,7 @@
+Algoritma adalah urutan langkah logis tertentu untuk memecahkan suatu masalah.
+Yang ditekankan adalah urutan langkah logis, yang berarti algoritma harus mengikuti
+suatu urutan tertentu, tidak boleh melompat-lompat.
+Alur pemikiran dalam menyelesaikan suatu pekerjaan yang dituangkan secara tertulis.
+Yang ditekankan pertama adalah alur pikiran, sehingga algoritma seseorang dapat
+juga berbeda dari algoritma orang lain. Sedangkan penekanan kedua adalah tertulis,
+yang artinya dapat berupa kalimat, gambar, atau tabel tertentu.
