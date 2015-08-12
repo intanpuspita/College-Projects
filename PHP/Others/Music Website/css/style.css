@@ -1,0 +1,216 @@
+@import url("fonts/texgyre.css");
+* { margin: 0; padding: 0; outline:0; }
+
+body {
+    font-size: 12px;
+    line-height: 1.3;
+    font-family:"Helvetica Neue", Helvetica, Verdana, sans-serif; 
+    color: #ccc;
+    background: url('images/body-bg.gif');
+}
+
+a { color: #0252aa; text-decoration: none; cursor:pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+
+input, textarea, select { font-size: 12px; font-family:'TeXGyreAdventor', Arial, sans-serif; color:#fff; }
+textarea { overflow: auto; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.hidden { display:none; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+h1 { font-family:'TeXGyreAdventor', Arial, sans-serif; font-size:44px; font-weight:bold; text-shadow: 0 2px 0px #000;  color:#f6f6f6}
+h2 { font-family:'TeXGyreAdventor', Arial, sans-serif; font-weight:normal; font-size:23px; color:#e7e7e7; text-shadow: 0 2px 0px #000; line-height:26px; }
+h4 { font-family:'TeXGyreAdventor', Arial, sans-serif; font-size:18px; font-weight:bold; color:#f5218f; line-height:16px; }
+p { font-family:'TeXGyreAdventor', Arial, sans-serif; }
+
+.shell {width:960px; padding:0 10px; margin:0 auto; }
+
+#header { background:url('images/header-bg.gif') repeat-x 0 0;  }
+#header .shell { position:relative; padding-bottom:27px; }
+
+#navigation { display:block; width:100%; height:32px; padding-top:30px; padding-bottom:30px; }
+#navigation h1 { color:#fff;}
+#navigation ul { list-style:none; }
+#navigation ul li { float:left; display:inline; padding-right:6px; }
+#navigation ul li a { float:left; display:inline; font-weight:bold; color:#fff; width:84px;  padding:0 ; line-height:26px; text-align:center; text-decoration:none; background:url('images/navigation-bg.gif') no-repeat 0 0; padding-bottom:1px; }
+#navigation ul li a.active,
+#navigation ul li a:hover { line-height:19px; background-position:0 bottom; line-height:31px;  }
+
+
+#contact { font-family:'TeXGyreAdventor', Arial, sans-serif; /*width:266px;*/ position:absolute; right:0; z-index: 100; top: 0; }
+#contact form { height: 100%; color:#fff; } 
+
+#contact .slide-area { background:#000; padding-top:25px; padding-bottom:17px; display: none; }
+/*#contact .field-left { float:left; width:182px; padding-left:17px; }*/
+#contact .field-row { margin-bottom:5px;}
+
+#contact .field-row label { display:block; color:#fff; font-size:11px; line-height:18px; }
+#contact .field-row label em { font-style:normal; color:#a1a1a1; }
+#contact .field-row span { width:182px; display:block; background:url('images/input-bg.gif') no-repeat 0 0; }
+#contact .field-row span.textarea-bg { width:266px; height:57px;  float:left; background:url('images/textarea-bg.gif') no-repeat 0 0; }
+#contact .field-row span.textarea-bg textarea { width:266px; height:57px; background:transparent; border:0; }
+#contact .field-row input { background:transparent; border:0; width:182px; padding:1px 0; }
+
+.field-right { float:left; width:266px; padding-left:30px; }
+
+p input { display:block; float:right; border: 0; background:0; color:#f21185; text-decoration:underline; cursor:pointer; padding:8px 10px 0 0;  }
+
+.slide-area-info { float:right; display:inline; background:#000 url('images/panel-left.gif') no-repeat 0 0; padding-left:6px; }
+.green { float:left; display:inline; }
+.slide-area-info img { float:left; padding-right:4px; }
+.slide-area-info p { float:left; display:inline; font-weight:bold; line-height:28px; color:#a6a6a7; }
+.slide-area-info p strong { text-transform:capitalize; color:#b9ff00; padding-right:9px; padding-left:4px; }
+.slide-area-info a { float:left; display:inline; width:27px; height:28px; background:url('images/slide-button.gif') no-repeat 0 0; font-size: 0; line-height: 0; text-indent: -4000px; }
+
+.slide-area-info a.active { background:url('images/slide-button-active.gif') no-repeat 0 0; }
+
+#intro {  }
+.info { width:425px; float:left; }
+.info h2 { padding-top:5px; }
+.info p { font-family:'TeXGyreAdventor', Arial, sans-serif; ; font-style:italic; }
+.info p.quote {  color:#e7e7e7; padding-top:25px; font-size:23px; }
+.info p.author { color:#e41480; text-align:right; font-size:22px; padding-right:20px; }
+
+.slider { position:relative; z-index:50; margin-right: auto;
+margin-left: auto; }
+#big-slider { padding-right:150px; }
+.jcarousel-clip,
+.slider-carousel { width:100%; height:235px;  padding:1px 2px 0 1px; overflow:hidden;}
+
+.slider-carousel ul { list-style:none; }
+.slider-carousel ul li { height:234px; }
+.slider-carousel img { width:90%; border:1px solid #000;}
+
+.slider-navigation { position:absolute; bottom:6px; right:0;  }
+.slider-navigation ul { list-style:none; }
+.slider-navigation ul li { float:left; display:inline; padding-left:11px; }
+.slider-navigation ul li a { float:left; display:inline; color:#939393; font-size:11px;  }
+.slider-navigation ul li a.active { color:#f72c95; }
+
+.jcarousel-prev { width:36px; height:110px; background:url('images/prev.gif') no-repeat 0 0; position:absolute; top:63px; left:-36px; cursor:pointer; } 
+.jcarousel-next { width:36px; height:110px; background:url('images/next.gif') no-repeat 0 0; position:absolute; top:63px; right:-38px; cursor:pointer; }
+
+ul.buttons { list-style:none; padding-top:8px; }
+ul.buttons li { float:left; display:inline; padding-right:6px; }
+ul.buttons li a.button {display:block; width:85px; height:24px; background:url('images/button-bg.gif') no-repeat 0 0; font-size:10px; font-weight:bold; color:#404040; line-height:24px; text-align:center; padding-right:15px; text-decoration:none; }
+
+#main,
+#main-in { background:url('images/main-bg.jpg') no-repeat center 0; }
+#main-in { width: 980px; margin: 0 auto; }
+#main .shell { background:url('images/main-b.jpg') no-repeat center bottom; padding-top:25px; padding-bottom:74px; }
+
+#navi_search { float: center; padding-top:10px; margin-bottom:10px; width:1000px; }
+#navi_search a { font-family:'TeXGyreAdventor', Arial, sans-serif; font-size:15px; font-weight:bold; color:#fff; line-height:16px; }
+#navi_search a:hover {text-decoration:none; color:#000;}
+#searchkey  label{ font-family:'TeXGyreAdventor', Arial, sans-serif; font-size:15px; color:#fff; }
+
+#searchkey select, input{background: #E0E0E0;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #000;
+    border-right: 1px solid #333;
+    border-top: 1px solid #000;
+    color: #000;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 13px 'TeXGyreAdventor', Arial, sans-serif;
+    padding: 6px 6px 4px;
+    width: 150px;}
+
+#artistname{
+	margin-left:50px;
+}	
+.submit{
+	font: 13px 'TeXGyreAdventor', Arial, sans-serif;
+    background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+    background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    padding: 6px 6px 4px;
+    font: 12px;
+    width: 100px;
+}
+
+#works { font-family:'TeXGyreAdventor', Arial, sans-serif; font-size: 14px; width:740px; float:left; display:inline; }
+#works a{ color:#f5218f;}
+#works h4 {color: #fff;}
+#works h3 {font-size: 20px;}
+#works a.red { padding-left:3px; line-height:16px; }
+#works ul.buttons li { padding-right:11px; }
+#works th{background-color: #666666}
+#works h4{color:#f5218f;}
+#works input, textarea{background: #E0E0E0;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #000;
+    border-right: 1px solid #333;
+    border-top: 1px solid #000;
+    color: #000;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 13px 'TeXGyreAdventor', Arial, sans-serif;
+    padding: 6px 6px 4px;
+	padding-right: 0px;
+    width: 230px;}
+	
+	#komen textarea{background: #E0E0E0;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #000;
+    border-right: 1px solid #333;
+    border-top: 1px solid #000;
+    color: #000;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font: 13px 'TeXGyreAdventor', Arial, sans-serif;
+    padding: 6px 6px 4px;
+    width: 90%;}	
+
+/*#works .radio {float:left;padding-right:16px}
+#works .radio.end {padding-right:0}
+#works .radio input {float:left;margin:5px 5px 0 0px;height:12px;width:12px;overflow:hidden;padding:0*/
+
+a.red { font-size:11px; color:#f9399c; text-decoration:underline; }
+a:hover.red { text-decoration:none; }
+
+.project { padding-bottom:22px; float:left; position:relative; background:url('images/slider-project-bg.gif') no-repeat 0 0; padding-right:2px; }
+
+.head { padding-bottom:33px; }
+
+.project .slider-carousel .jcarousel-clip,
+.project .slider-carousel { width:465px; height:150px; }
+.project .slider-carousel img { width:464px;  }
+.project .slider-navigation { position:absolute; bottom:28px; right:9px; }
+.project .jcarousel-prev, .project .jcarousel-next { background:none; display:none; width:1px; height:1px; }
+.project .slider-carousel ul li { position:relative; }
+.slider-carousel span.project-info { display:block; width:455px; height:34px; background:url('images/project-span-bg.png'); position:relative; bottom:37px; left:0; line-height:34px; font-weight:bold; font-size:14px; color:#fff; padding-left:12px; margin-left:1px; }
+
+#blogroll { width:210px; float:left; padding-left:10px; }
+#blogroll h1 {font-size:35px;}
+#blogroll h3 {text-indent: -4000px; color:#fff; }
+#blogroll h4 a{color:#f5218f; }
+a.rss { padding-left:10px; width:16px;  }
+
+.box { float:left; padding-bottom:31px; }
+.box .comment { font-size:11px; line-height:16px; color:#94b0d2; padding-bottom:2px;  }
+.box .comment span { float:left; }
+.box p.text-right { text-align:right; color:#fff; }
+.box p.text-right a { color:#fff; text-decoration:underline; }
+.box .content { padding-bottom:2px; line-height:16px; }
+
+#footer {  }
+#footer .shell { padding:18px 0; }
+#footer p, #footer a { text-align:center; font-size:11px; color:#4a4a4a;  }
+

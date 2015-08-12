@@ -1,0 +1,52 @@
+/* 
+Theme Name: Away Login Theme 
+Description: Theme #1
+Author: Muhammad Wahyu Hidayatullah - Away Syereadi
+Author URI: http://gatotkacatulanglunak.wordpress.com/ 
+Version: 1.0 
+*/ 
+body {  
+    font-family: tahoma, "Bitstream Charter", serif;  
+    font-size:12px;
+    overflow:scroll;
+} 
+#wrap {  
+    border:solid 2px #999999; 
+    width:270px;  
+    margin:0 auto;  
+    margin-top:200px;
+    padding:2px;  
+    background:#9999CC;  
+}  
+#maincontent {  
+    border:solid 2px #fff; 
+    background:#9999CC; 
+    padding: 5px;
+}  
+#header{
+    padding:5px;
+    font-weight:bold;
+    font-size:14px;
+}
+#content{
+    border:solid 2px #fff; 
+    background:#fff; 
+    padding: 5px;
+ 
+}
+#notification{
+    background:#FFFF99;
+    border:solid 1px #FFCC00; 
+    padding:3px;
+}
+#label{
+    float:left;
+    width:70px;
+        margin:5px;
+}
+#form{
+    margin:5px;
+}
+.red{
+    color:#CC0000;
+}
