@@ -1,0 +1,9 @@
+Program example;
+Begin
+    2+3*((5+2)div 3);
+    Begin
+         -2+(3*4) div 3;
+	 3+7*(2-5)
+    End;
+    2+6*(7-9)
+End.
