@@ -1,0 +1,16 @@
+
+public class DemoTryCatch3 {
+	public static void main(String args[]){
+		int i;
+		int[] A = new int[10];
+		try{
+			for(i = 0; i <= 10; i++){
+				A[i] = 99;
+				System.out.println(i);
+			}
+		}
+		catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("Index array nya melebihi kapasitas");
+		}
+	}
+}

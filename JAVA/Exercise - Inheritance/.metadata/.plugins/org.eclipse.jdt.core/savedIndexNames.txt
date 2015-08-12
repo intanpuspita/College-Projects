@@ -1,0 +1,11 @@
+INDEX VERSION 1.121+E:\Playground\Programm.nyam.nyam\Semester 4\PPL\16042013\.metadata\.plugins\org.eclipse.jdt.core
+927406735.index
+2832004357.index
+4119286591.index
+4056065774.index
+876042245.index
+1369624336.index
+2253520373.index
+1811223372.index
+2454739286.index
+1760830407.index

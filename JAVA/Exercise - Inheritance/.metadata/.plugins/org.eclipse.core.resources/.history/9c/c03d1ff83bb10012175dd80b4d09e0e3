@@ -1,0 +1,14 @@
+
+public class DemoTryCatch {
+	public static void main(String args[]){
+		try{	//coba dulu blok yg ini
+			int a, b, c;
+			a=8;
+			b=0;
+			c=a/b;
+		}
+		catch (Exception e){	//kalau gagal
+			System.out.println("Pembagian dengan nol tidak diperbolehkan");
+		}
+	}
+}

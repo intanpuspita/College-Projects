@@ -1,0 +1,24 @@
+
+public class DemoTryCatch4 {
+	public static void main(String args[]){
+		int a, b, c;
+		int[] A = new int[5];
+		
+		a = 7;
+		b = 0;
+		
+		try{
+			c = a/b;
+			catch (ArithmeticException e2){
+				System.out.println("Pembagian dengan nol tidak diperbolehkan");
+			}
+			try{
+				A[5] = 88;
+			}
+			catch (ArrayIndexOutOfBoundsException e1){
+				System.out.println("Index array nya melebihi kapasitas");
+			}
+		}
+		
+	}
+}

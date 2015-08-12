@@ -1,0 +1,7 @@
+
+public class DemoTryCatch3 {
+	public static void main(String args[]){
+		int[] A = new int[5];
+		A[4] = 99;
+	}
+}

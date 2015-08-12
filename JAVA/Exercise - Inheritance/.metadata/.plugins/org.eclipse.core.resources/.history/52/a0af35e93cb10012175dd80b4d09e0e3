@@ -1,0 +1,16 @@
+
+public class DemoTryCatch2 {
+	public static void main(String args[]){
+		float a, b, c;
+		
+		try{	//coba dulu blok yg ini
+			a=8;
+			b=3;
+			c=a/b;
+			System.out.println("c = "+c);
+		}
+		catch (ArithmeticException e){	//kalau gagal
+			System.out.println("Pembagian dengan nol tidak diperbolehkan");
+		}
+	}
+}
