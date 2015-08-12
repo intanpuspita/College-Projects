@@ -1,0 +1,2 @@
+<p>© 2012 Start-Up<br> <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">Website Template</a>  by TemplateMonster.com</p> | <a rel="nofollow" href="http://www.html5xcss3.com/" target="_blank" class="link">Html5xcss3.com</a>
+<div class="soc-icons"><span>Follow Us:</span><a href="#"><img src="<?php echo base_url();?>/images/icon-1.jpg" alt=""></a><a href="#"><img src="<?php echo base_url();?>/images/icon-2.jpg" alt=""></a><a href="#"><img src="<?php echo base_url();?>/images/icon-3.jpg" alt=""></a></div>
