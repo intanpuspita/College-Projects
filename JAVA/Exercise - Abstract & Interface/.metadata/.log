@@ -1,0 +1,39 @@
+!SESSION 2013-11-27 10:08:17.394 -----------------------------------------------
+eclipse.buildId=I20070625-1500
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-27 10:26:28.338
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: 27 November 2011
+!STACK 1
+Java Model Exception: Java Model Status [PersegiPanjang [in [Working copy] BentukGeometri.java [in DemoInterface [in src [in 27 November 2011]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:485)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:516)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:249)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:235)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:311)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:379)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:178)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:398)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:362)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:302)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:299)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:130)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:280)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:624)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:166)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:197)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:246)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:249)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:334)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:137)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2013-11-27 10:26:28.343
+!MESSAGE PersegiPanjang [in [Working copy] BentukGeometri.java [in DemoInterface [in src [in 27 November 2011]]]] does not exist
